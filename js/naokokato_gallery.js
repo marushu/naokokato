@@ -27,20 +27,20 @@
 
     }
 
-    //$('.venobox').venobox({
-    //    titleattr: 'data-title',
-    //    titlePosition: 'bottom',
-    //    infinigall: true,
-    //    spinner: 'spinner-pulse',
-    //    framewidth: '',
-    //    frameheight: '',
-    //    titleBackground: 'transparent',
-    //    bgcolor: '#000000',
-    //    overlayColor: 'rgba( 255, 255, 255, .95 )',
-    //    numeratio: true,
-    //    //fitWidth: true,
-    //    //columnWidth: 120
-    //});
+    $('.venobox').venobox({
+       titleattr: 'data-title',
+       titlePosition: 'bottom',
+       infinigall: true,
+       spinner: 'spinner-pulse',
+       framewidth: '',
+       frameheight: '',
+       titleBackground: 'transparent',
+       bgcolor: '#000000',
+       overlayColor: 'rgba( 255, 255, 255, .95 )',
+       numeratio: true,
+       //fitWidth: true,
+       //columnWidth: 120   
+    });
 
     $( '.area_image_large__item' ).on( 'click', function(){
 
