@@ -39,7 +39,7 @@
        overlayColor: 'rgba( 255, 255, 255, .95 )',
        numeratio: true,
        //fitWidth: true,
-       //columnWidth: 120   
+       //columnWidth: 120
     });
 
     $( '.area_image_large__item' ).on( 'click', function(){
