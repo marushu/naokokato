@@ -816,8 +816,8 @@ li {
         text-align: center;
         position: relative;
         //flex: 0 0 25%;
-        width: 100%;
-        margin-bottom: 1%;
+        width: 49%;
+        margin-bottom: 1.5%;
         @include transition();
 
         @include for-pc {
@@ -1010,6 +1010,17 @@ li {
 //  }
 //
 //}
+
+.vbox-content {
+
+  @include for-pc {
+    img {
+      max-width: 960px;
+      margin: auto;
+    }
+  }
+
+}
 
 .empty_image {
   display: block;

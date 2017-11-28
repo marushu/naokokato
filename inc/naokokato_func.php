@@ -83,7 +83,6 @@ add_image_size( 'area_small', 67, 44, true );
 add_image_size( 'fit_large', 1200, '', true );
 add_image_size( 'thumb_300_200', 300, 200, true );
 add_image_size( 'thumb_320_999', 320, 999999, false );
-add_image_size( 'thumb_960_999', 960, '', true );
 /**
  * Front page slider
  */
